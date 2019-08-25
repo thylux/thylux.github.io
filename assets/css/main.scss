@@ -21,6 +21,16 @@ $background-color: #fcf5c7;
 
 $cover-color: #f9f0ae;
 
+$imagesPath: "/assets/images/";
+
+{% for section in site.data.sections %}
+  $section: "{{ section[0] }}";
+  $image: "{{ section[1].background }}";
+  .#{$section}__bkgrnd {
+    background-image: url($imagesPath + $image);
+  }
+{% endfor %}
+
 @import "_glitch", "_homepage", "_style";
 
 .about_section {

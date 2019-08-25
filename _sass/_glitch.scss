@@ -35,22 +35,6 @@
   box-sizing: border-box;
 }
 
-.about__bkgrnd {
-  background-image: url("../images/me.jpg");
-}
-
-.projects__bkgrnd {
-  background-image: url("../images/projects.jpg");
-}
-
-.algorithms__bkgrnd {
-  background-image: url("../images/resume.jpg");
-}
-
-.contact__bkgrnd {
-  background-image: url("../images/contact.jpg");
-}
-
 .glitch__img:nth-child(n + 2) {
   opacity: 0;
 }
