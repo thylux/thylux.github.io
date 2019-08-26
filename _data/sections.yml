@@ -16,7 +16,7 @@ resume:
   url: /resume
   heading: Resume
   words: Check out or download my resume
-  class: m6 algorithms
+  class: m6 resume
   border: 
   background: "resume.jpg"
 contact:

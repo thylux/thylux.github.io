@@ -1,4 +1,26 @@
 #homepage {
+  --color-text: #fff;
+  --color-bg: #000;
+  --color-link: #f9d77e;
+  --color-link-hover: #fff;
+  --color-info: #efc453;
+  --glitch-width: 100vw;
+  --glitch-height: 100vh;
+  --gap-horizontal: 20px;
+  --gap-vertical: 10px;
+  --time-anim: 4s;
+  --delay-anim: 0s;
+  --blend-mode-1: none;
+  --blend-mode-2: none;
+  --blend-mode-3: none;
+  --blend-mode-4: none;
+  --blend-mode-5: overlay;
+  --blend-color-1: transparent;
+  --blend-color-2: transparent;
+  --blend-color-3: transparent;
+  --blend-color-4: transparent;
+  --blend-color-5: #af4949;
+
   a {
     box-sizing: border-box;
     padding: 0px;
@@ -57,7 +79,7 @@
   .contact a:hover {
     color: #f46036;
   }
-  .algorithms {
+  .resume {
     // background-color: #2E294E;
 
     box-shadow: inset 0 0 0 1000px rgba($color6, 0.9);
@@ -65,7 +87,7 @@
     background-image: url("/assets/images/resume.jpg");
     background-size: cover;
   }
-  .algorithms:hover {
+  .resume:hover {
     background-color: #443c72;
     box-shadow: inset 0 0 0 1000px rgba($color6, 0.6);
     // border: 2px solid white;
