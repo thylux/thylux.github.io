@@ -29,22 +29,24 @@ $imagesPath: "/assets/images/";
   .#{$section}__bkgrnd {
     background-image: url($imagesPath + $image);
   }
+
+  .#{$section} {
+    // background-color: #F2F7F2;
+    background-image: url($imagesPath + $image);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba($color6, 0.9);
+    transition: box-shadow 0.5s linear;
+  }
+
+  .#{$section}:hover {
+    // background-color: rgba(244,96,54,0.9);
+    box-shadow: inset 0 0 0 1000px rgba($color6, 0.6);
+    // border: 2px solid white;
+    // border-radius: 5px;
+  }
 {% endfor %}
 
 @import "_glitch", "_homepage", "_style";
-
-.about_section {
-  .skills_wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .skill_group {
-    width: 30%;
-  }
-}
 
 .my_footer {
   background-color: $dark-grey;
@@ -526,11 +528,5 @@ nav a.button-collapse i {
     letter-spacing: normal !important;
     font-size: 0.9rem !important;
     font-family: $font1 !important;
-  }
-
-  .about_section {
-    .skill_group {
-      width: 50%;
-    }
   }
 }
