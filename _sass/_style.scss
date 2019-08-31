@@ -35,7 +35,7 @@
   overflow-y: hidden !important;
 }
 
-#projects, .about-me, #resume {
+#projects, .about-me, #favorites {
 
   h3 {
     font-family: 'Abril Fatface', cursive;
@@ -175,7 +175,7 @@ i {
   background-color: darkgrey;
 }
 
-#resume p, .resume-content p {
+#favorites p, .favorites-content p {
   color: white !important;
   margin: 4%;
   font-size: 25px;
@@ -185,22 +185,22 @@ i {
   font-family: $font2;
 }
 
-#resume h3 {
+#favorites h3 {
   color: white;
 }
 
-.resume h3 {
+.favorites h3 {
   color: white;
   font-family: 'Abril Fatface', cursive;
   font-weight: 600;
   letter-spacing: 1.2;
 }
 
-#resume a {
+#favorites a {
   color: #2E294E;
 }
 
-#resume a:hover {
+#favorites a:hover {
   opacity: 0.9;
 }
 

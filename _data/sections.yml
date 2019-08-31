@@ -12,13 +12,13 @@ about:
   class: m5 about
   border: about
   background: "me.jpg"
-resume:
-  url: /resume
-  heading: Resume
-  words: Check out or download my resume
-  class: m6 resume
+favorites:
+  url: /favorites
+  heading: Favorites
+  words: Books, podcasts, tools, etc.
+  class: m6 favorites
   border: 
-  background: "resume.jpg"
+  background: "favorites.jpg"
 contact:
   url: /contact
   heading: Contact

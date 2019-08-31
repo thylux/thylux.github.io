@@ -20,12 +20,12 @@ var HideShowTransition = Barba.BaseTransition.extend({
 
     $(this.oldContainer).addClass("barba-old-container");
     var le =
-      $(".resume-border").position().left -
+      $(".favorites-border").position().left -
       $(".about-border").position().left;
 
     //fixes displaced borders due to glitch animation
 
-    // $(".resume-border").css({
+    // $(".favorites-border").css({
     //   right: le + 20 + "px",
     //   top: "-11px"
     // });
@@ -74,7 +74,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
     });
 
     var pro3 = new Promise((resolve, reject) => {
-      $(".resume-border").animate(
+      $(".favorites-border").animate(
         {
           width: "100%"
         },
@@ -106,8 +106,8 @@ var HideShowTransition = Barba.BaseTransition.extend({
         contactHeight = $(".contact").height(),
         projectsWidth = $(".projects").width(),
         projectsHeight = $(".projects").height(),
-        resumeWidth = $(".resume").width(),
-        resumeHeight = $(".resume").height(),
+        favoritesWidth = $(".favorites").width(),
+        favoritesHeight = $(".favorites").height(),
         aboutWidth = $(".about").width(),
         aboutHeight = $(".about").height();
 
@@ -139,11 +139,11 @@ var HideShowTransition = Barba.BaseTransition.extend({
           400
         );
       $(this.oldContainer)
-        .find(".resume")
+        .find(".favorites")
         .animate(
           {
-            left: "-=" + resumeWidth + "px",
-            top: "+=" + resumeHeight + "px"
+            left: "-=" + favoritesWidth + "px",
+            top: "+=" + favoritesHeight + "px"
           },
           400,
           function() {
@@ -157,7 +157,7 @@ var HideShowTransition = Barba.BaseTransition.extend({
               .find(".projects")
               .finish();
             $(this.oldContainer)
-              .find(".resume")
+              .find(".favorites")
               .finish();
             $(this.oldContainer)
               .find(".contact")
@@ -188,21 +188,21 @@ var FadeTransition = Barba.BaseTransition.extend({
         $(".about-border").css({ height: "100%" });
         $(".contact-border").css({ height: "100%" });
         $(".projects-border").css({ width: "100%" });
-        $(".resume-border").css({ width: "100%" });
+        $(".favorites-border").css({ width: "100%" });
         var contactXPos = $(".contact").position().left,
           contactYPos = $(".contact").position().top,
           projectsXPos = $(".projects").position().left,
           projectsYPos = $(".projects").position().top,
-          resumeXPos = $(".resume").position().left,
-          resumeYPos = $(".resume").position().top,
+          favoritesXPos = $(".favorites").position().left,
+          favoritesYPos = $(".favorites").position().top,
           aboutXPos = $(".about").position().left,
           aboutYPos = $(".about").position().top;
         (contactWidth = $(".contact").width()),
           (contactHeight = $(".contact").height()),
           (projectsWidth = $(".projects").width()),
           (projectsHeight = $(".projects").height()),
-          (resumeWidth = $(".resume").width()),
-          (resumeHeight = $(".resume").height()),
+          (favoritesWidth = $(".favorites").width()),
+          (favoritesHeight = $(".favorites").height()),
           (aboutWidth = $(".about").width()),
           (aboutHeight = $(".about").height());
 
@@ -225,10 +225,10 @@ var FadeTransition = Barba.BaseTransition.extend({
             top: "-=" + projectsHeight + "px"
           });
         $(this.newContainer)
-          .find(".resume")
+          .find(".favorites")
           .css({
-            left: "-=" + resumeWidth + "px",
-            top: "+=" + resumeHeight + "px"
+            left: "-=" + favoritesWidth + "px",
+            top: "+=" + favoritesHeight + "px"
           });
 
         var _this = this;
@@ -276,11 +276,11 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
         var pro4 = new Promise((resolve, reject) => {
           $(this.newContainer)
-            .find(".resume")
+            .find(".favorites")
             .animate(
               {
-                left: "+=" + resumeWidth + "px",
-                top: "-=" + resumeHeight + "px"
+                left: "+=" + favoritesWidth + "px",
+                top: "-=" + favoritesHeight + "px"
               },
               400,
               function() {
@@ -294,10 +294,10 @@ var FadeTransition = Barba.BaseTransition.extend({
         Promise.all(pros).then(() => {
           $(this.newContainer).removeClass("barba-old-container");
 
-          $(".resume-border").css("top", "-1px");
+          $(".favorites-border").css("top", "-1px");
           //fixes displaced borders due to glitch animation
 
-          // $(".resume-border").css({
+          // $(".favorites-border").css({
           //   right: "+20px",
           //   top: "-11px"
           // });
@@ -344,7 +344,7 @@ var FadeTransition = Barba.BaseTransition.extend({
           });
 
           var proBorder3 = new Promise((resolve, reject) => {
-            $(".resume-border").animate(
+            $(".favorites-border").animate(
               {
                 width: "0%"
               },

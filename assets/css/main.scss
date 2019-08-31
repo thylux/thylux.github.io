@@ -53,11 +53,6 @@ $imagesPath: "/assets/images/";
   margin-top: 40px;
 }
 
-.resume-wrapper {
-  button {
-    margin-top: 50px;
-  }
-}
 body {
   background-color: $background-color;
   min-height: 100%;
@@ -425,7 +420,7 @@ button.fill:hover:before {
   right: 0;
 }
 
-.resume-border {
+.favorites-border {
   top: 0;
   right: 0;
 }
