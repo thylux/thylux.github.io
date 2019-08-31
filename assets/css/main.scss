@@ -46,7 +46,7 @@ $imagesPath: "/assets/images/";
   }
 {% endfor %}
 
-@import "_glitch", "_homepage", "_style";
+@import "_glitch", "_homepage", "_style", "_devicon";
 
 .my_footer {
   background-color: $dark-grey;
