@@ -2,3 +2,25 @@
 layout: container
 ---
 <div class="row top-row center" style="position:fixed; top: 0; left: 0; width: 100%; z-index: 999; background-color: coral">Under Construction</div>
+<div class="favorite_list">
+  <div class="row">
+    {% for fav in site.data.favorites.books %}
+      {% include book_box.html book=fav %}
+    {% endfor %}
+  </div>
+  <div class="row">
+    {% for fav in site.data.favorites.podcasts %}
+      {% include podcast_box.html podcast=fav %}
+    {% endfor %}
+  </div>
+  <div class="row">
+    {% for fav in site.data.favorites.tools %}
+      {% include tool_box.html tool=fav %}
+    {% endfor %}
+  </div>
+  <div class="row">
+    {% for fav in site.data.favorites.quotes %}
+      {% include quote_box.html quote=fav %}
+    {% endfor %}
+  </div>
+</div>

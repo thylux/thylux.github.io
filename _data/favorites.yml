@@ -1,0 +1,28 @@
+books:
+  martin1:
+    name: 'Clean Code'
+    author: 'Robert C. Martin'
+    description:
+    cover:
+    goodreads:
+    summary:
+podcasts:
+  awesome:
+    name: 'Awesome at your work'
+    description:
+    cover:
+    link:
+  hanselman:
+    name: 'Hanselminutes'
+    description:
+    cover:
+    link:
+tools:
+  t1:
+    name: 'edX'
+    creator: ''
+    link: ''
+quotes:
+  q1:
+    author: 'me'
+    text: '!'
