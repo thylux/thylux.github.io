@@ -17,7 +17,7 @@ favorites:
   heading: Favorites
   words: Books, podcasts, tools, etc.
   class: m6 favorites
-  border: 
+  border: favorites
   background: "favorites.jpg"
 contact:
   url: /contact

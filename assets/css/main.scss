@@ -17,7 +17,7 @@ $text-color: #eff2ef;
 $modal-text: #fcf5c7;
 
 $dark-grey: #292929;
-$background-color: #fcf5c7;
+$background-color: #ffffff;
 
 $cover-color: #f9f0ae;
 
@@ -46,7 +46,7 @@ $imagesPath: "/assets/images/";
   }
 {% endfor %}
 
-@import "_glitch", "_homepage", "_style", "_devicon";
+@import "_glitch", "_homepage", "_style";
 
 .my_footer {
   background-color: $dark-grey;
@@ -55,13 +55,18 @@ $imagesPath: "/assets/images/";
 
 body {
   background-color: $background-color;
-  min-height: 100%;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+body, .barba-wrapper, .barba-container {
+  min-height: 100vh;
 }
 
 nav {
-  margin-top: 40px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 nav ul li a {
@@ -282,15 +287,10 @@ nav ul li {
   }
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
 main {
   flex: 1 0 auto;
 }
+
 .carousel {
   margin: 0;
   padding: 0;
