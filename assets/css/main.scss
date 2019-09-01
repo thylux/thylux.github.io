@@ -47,6 +47,7 @@ $imagesPath: "/assets/images/";
 {% endfor %}
 
 @import "_glitch", "_homepage", "_style";
+@import "_projectbox";
 
 .my_footer {
   background-color: $dark-grey;
