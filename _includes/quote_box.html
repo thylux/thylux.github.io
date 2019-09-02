@@ -1,4 +1,10 @@
-<div class="quote-container">
-  <h2>{{ include.quote[1].author }}</h2>
-  <p class="quote">{{ include.quote[1].text }}</p>
-</div>
+<div class="quote-container col s12 m7">
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content">
+          <h4><i>"{{ include.quote[1].text }}"</i></h4>
+          <p class="right">{{ include.quote[1].author }}</p>
+        </div>
+      </div>
+    </div>
+  </div>

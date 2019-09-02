@@ -1,4 +1,13 @@
-<div class="tool-container">
-  <h2>{{ include.tool[1].name }}</h2>
-  <p>{{ include.tool[1].link }}</p>
-</div>
+<div class="tool-container col s12 m7">
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content">
+          <h4>{{ include.tool[1].name }}</h4>
+          <p class="right">{{ include.tool[1].creator }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ include.tool[1].link }}">Link</a>
+        </div>
+      </div>
+    </div>
+  </div>

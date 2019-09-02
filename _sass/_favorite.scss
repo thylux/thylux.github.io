@@ -1,0 +1,14 @@
+.favorite_list {
+  .card-image {
+    img {
+      max-height: 200px;
+      min-width: 100px;
+      vertical-align: middle;
+    }
+  }
+  .card-content {
+    h4 {
+      margin-top: 0px;
+    }
+  }
+}

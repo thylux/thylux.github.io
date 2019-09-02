@@ -2,25 +2,25 @@ books:
   martin1:
     name: 'Clean Code'
     author: 'Robert C. Martin'
-    description:
-    cover:
-    goodreads:
+    description: 'A handbook of Agile Software Craftsmanship'
+    cover: 'cleancode.jpg'
+    goodreads: '3735293-clean-code'
     summary:
 podcasts:
   awesome:
     name: 'Awesome at your work'
-    description:
-    cover:
-    link:
+    description: 'Each week, I grill thought-leaders and results-getters to discover specific, actionable insights that boost work performance.'
+    cover: 'howtobeawesomeatyourjob.jpg'
+    link: 'https://awesomeatyourjob.com/podcast/'
   hanselman:
     name: 'Hanselminutes'
-    description:
-    cover:
-    link:
+    description: 'Fresh Tech Talk from Fresh Faces'
+    cover: 'hanselminutes.jpg'
+    link: 'https://www.hanselminutes.com/episodes'
 tools:
   t1:
     name: 'edX'
-    creator: ''
+    creator: 'edX'
     link: ''
 quotes:
   q1:

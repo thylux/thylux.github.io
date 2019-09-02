@@ -1,4 +1,19 @@
-<div class="book-container">
-  <i class="{{include.book[1].cover}}" alt="{{include.book[1].name}}" title="{{include.book[1].name}}"></i>
-  <p>{{include.book[1].name}}</p>
+<div class="book-container col s12 m7">
+  <div class="card horizontal">
+    <div class="card-image valign-wrapper">
+        <img src="/assets/images/covers/{{ include.book[1].cover }}" alt="{{ include.book[1].name }}" title="{{ include.book[1].name }}"></img>
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <h4>{{ include.book[1].name }}</h4>
+        <p>{{ include.book[1].description }}</p>
+      </div>
+      <div class="card-action">
+        <a href="https://www.goodreads.com/book/show/{{ include.book[1].goodreads }}">Goodreads</a>
+        {% if include.book[1].summary %}
+          <a class="right" href="/{{ include.book[1].summary }}">My takeaways</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,4 +1,16 @@
-<div class="podcast-container">
-  <i class="{{ include.podcast[1].cover }}" alt="{{ include.podcast[1].name }}" title="{{ include.podcast[1].name }}"></i>
-  <p>{{ include.podcast[1].name }}</p>
-</div>
+<div class="podcast-container col s12 m7">
+    <div class="card horizontal valign-wrapper">
+      <div class="card-image">
+          <img src="/assets/images/covers/{{ include.podcast[1].cover }}" alt="{{ include.podcast[1].name }}" title="{{ include.podcast[1].name }}"></img>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h4>{{ include.podcast[1].name }}</h4>
+          <p>{{ include.podcast[1].description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ include.podcast[1].link }}">Link</a>
+        </div>
+      </div>
+    </div>
+  </div>
