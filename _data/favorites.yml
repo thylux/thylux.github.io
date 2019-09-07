@@ -1,4 +1,18 @@
 books:
+  hunt1:
+    name: 'The Pragmatic Programmer'
+    author: 'Andy Hunt & Dave Thomas'
+    description: 'From Journeyman to Master'
+    cover: 'pragmatic.jpg'
+    goodreads: '4099.The_Pragmatic_Programmer'
+    summary:
+  feathers1:
+    name: 'Working Effectively with Legacy Code'
+    author: 'Michael C. Feathers'
+    description: ''
+    cover: 'legacy.jpg'
+    goodreads: '44919.Working_Effectively_with_Legacy_Code'
+    summary:
   martin1:
     name: 'Clean Code'
     author: 'Robert C. Martin'
@@ -6,12 +20,75 @@ books:
     cover: 'cleancode.jpg'
     goodreads: '3735293-clean-code'
     summary:
-  gaurav1:
-    name: 'Building Microservices with .NET Core 2.0 - Second Edition'
-    author: 'Gaurav Kumar Arora'
-    description: 'Transitioning monolithic architecture using microservices with .NET Core'
-    cover: 'microservices-se.jpg'
-    goodreads: '36269281-building-microservices-with-net-core-2-0---second-edition'
+  martin2:
+    name: 'Clean Coder'
+    author: 'Robert C. Martin'
+    description: 'A Code of Conduct for Professional Programmers'
+    cover: 'cleancoder.jpg'
+    goodreads: '10284614-the-clean-coder'
+    summary:
+  martin3:
+    name: 'Agile Principles, Patterns, and Practices in C#'
+    author: 'Robert C. Martin'
+    description: ''
+    cover: 'appp.jpg'
+    goodreads: '84983.Agile_Principles_Patterns_and_Practices_in_C_'
+    summary:
+  martin4:
+    name: 'Clean Architecture'
+    author: 'Robert C. Martin'
+    description: ''
+    cover: 'cleanarchitecture.jpg'
+    goodreads: '18043011-clean-architecture'
+    summary:
+  gamma1:
+    name: 'Design Patterns'
+    author: 'Eric Gamma et al.'
+    description: 'Elements of Reusable Object-Oriented Software'
+    cover: 'patterns.jpg'
+    goodreads: '85009.Design_Patterns'
+    summary:
+  fowler1:
+    name: 'Refactoring'
+    author: 'Martin Fowler'
+    description: 'Improving the Design of Existing Code'
+    cover: 'refactoring.jpg'
+    goodreads: '44936.Refactoring'
+    summary:
+  fowler2:
+    name: 'Patterns of Enterprise Application Architecture'
+    author: 'Martin Fowler et al.'
+    description: ''
+    cover: 'peaa.jpg'
+    goodreads: '70156.Patterns_of_Enterprise_Application_Architecture'
+    summary:
+  hohpe1:
+    name: 'Enterprise Integration Patterns'
+    author: 'Greg Hohpe & Bob Woolf'
+    description: 'Designing, Building, and Deploying Messaging Solutions'
+    cover: 'eip.jpg'
+    goodreads: '85012.Enterprise_Integration_Patterns'
+    summary:
+  demarco1:
+    name: 'Peopleware'
+    author: 'Tom DeMarco & Timothy Lister'
+    description: 'Productive Projects and Teams'
+    cover: 'peopleware.jpg'
+    goodreads: '17624351-peopleware'
+    summary:
+  basecamp1:
+    name: 'Rework'
+    author: 'Jason Fried, David Heinemeier Hanson'
+    description: 'Change the way you work forever'
+    cover: 'rework.jpg'
+    goodreads: '7861053-rework'
+    summary:
+  brooks1:
+    name: 'The Mythical Man-Month'
+    author: 'Frederick P. Brooks Jr.'
+    description: 'Essays on Software Engineering'
+    cover: 'man-month.jpg'
+    goodreads: '13629.The_Mythical_Man_Month'
     summary:
 podcasts:
   awesome:

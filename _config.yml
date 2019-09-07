@@ -22,6 +22,8 @@ url: "https://thylux.github.io/" # the base hostname & protocol for your site, e
 twitter_username: thylux
 github_username:  thylux
 linkedin_username:  sltazevedo
+goodreads_username: 31090012-s-rgio-azevedo
+goodreads_bookshelf: "31090012-s-rgio-azevedo?order=d&shelf=t%C3%A9cnicos&sort=rating"
 
 # Build settings
 markdown: kramdown

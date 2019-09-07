@@ -9,6 +9,8 @@ layout: container
     {% endfor %}
   </ul>
   <div id="tab-books" class="col s12">
+    <a target="_blank" class="z-depth-4 waves-effect waves-light btn-large" href="https://www.goodreads.com/review/list/{{ site.goodreads_bookshelf }}">GoodReads list</a>
+    <!-- <a target="_blank" class="z-depth-4 waves-effect waves-light btn-large right" href="https://www.goodreads.com/user/show/{{ site.goodreads }}">GoodReads profile</a> -->
     {% for fav in site.data.favorites.books %}
       {% include book_box.html book=fav %}
     {% endfor %}

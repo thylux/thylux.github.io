@@ -1,12 +1,12 @@
 <div class="book-container col s12 m7">
-  <div class="card horizontal valign-wrapper">
+  <div class="card horizontal hoverable valign-wrapper">
     <div class="card-image">
         <img src="/assets/images/covers/{{ include.book[1].cover }}" alt="{{ include.book[1].name }}" title="{{ include.book[1].name }}"></img>
     </div>
     <div class="card-stacked">
       <div class="card-content">
         <h4>{{ include.book[1].name }}</h4>
-        <p>{{ include.book[1].description }}</p>
+        <p class="truncate">{{ include.book[1].description }}</p>
       </div>
       <div class="card-action">
         <a href="https://www.goodreads.com/book/show/{{ include.book[1].goodreads }}">Goodreads</a>
