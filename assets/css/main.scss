@@ -68,9 +68,8 @@ body, .barba-wrapper, .barba-container {
 
 nav {
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
-
 nav ul li a {
   font-weight: 600;
   color: black;
@@ -511,6 +510,10 @@ nav a.button-collapse i {
 
   .description {
     font-size: 0.9rem;
+  }
+
+  nav {
+    margin-bottom: 10px;
   }
 
   .project_list {

@@ -2,23 +2,28 @@
 layout: container
 ---
 <div class="row top-row center" style="position:fixed; top: 0; left: 0; width: 100%; z-index: 999; background-color: coral">Under Construction</div>
-<div class="favorite_list">
-  <div class="row">
+<div class="favorite-list">
+  <ul id="favorites-tabs" class="tabs">
+    {% for fav in site.data.favorites %}
+      <li class="tab col s3"><a href="#tab-{{ fav[0] }}">{{ fav[0] | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
+  <div id="tab-books" class="col s12">
     {% for fav in site.data.favorites.books %}
       {% include book_box.html book=fav %}
     {% endfor %}
   </div>
-  <div class="row">
+  <div id="tab-podcasts" class="col s12">
     {% for fav in site.data.favorites.podcasts %}
       {% include podcast_box.html podcast=fav %}
     {% endfor %}
   </div>
-  <div class="row">
+  <div id="tab-tools" class="col s12">
     {% for fav in site.data.favorites.tools %}
       {% include tool_box.html tool=fav %}
     {% endfor %}
   </div>
-  <div class="row">
+  <div id="tab-quotes" class="col s12">
     {% for fav in site.data.favorites.quotes %}
       {% include quote_box.html quote=fav %}
     {% endfor %}
