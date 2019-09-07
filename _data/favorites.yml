@@ -6,6 +6,13 @@ books:
     cover: 'cleancode.jpg'
     goodreads: '3735293-clean-code'
     summary:
+  gaurav1:
+    name: 'Building Microservices with .NET Core 2.0 - Second Edition'
+    author: 'Gaurav Kumar Arora'
+    description: 'Transitioning monolithic architecture using microservices with .NET Core'
+    cover: 'microservices-se.jpg'
+    goodreads: '36269281-building-microservices-with-net-core-2-0---second-edition'
+    summary:
 podcasts:
   awesome:
     name: 'Awesome at your work'
