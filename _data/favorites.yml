@@ -96,11 +96,51 @@ podcasts:
     description: 'Each week, I grill thought-leaders and results-getters to discover specific, actionable insights that boost work performance.'
     cover: 'howtobeawesomeatyourjob.jpg'
     link: 'https://awesomeatyourjob.com/podcast/'
-  hanselman:
+  hanselman1:
     name: 'Hanselminutes'
     description: 'Fresh Tech Talk from Fresh Faces'
     cover: 'hanselminutes.jpg'
     link: 'https://www.hanselminutes.com/episodes'
+  hanselman2:
+    name: 'This developer''s Life'
+    description: 'A podcast about developers and their lives.'
+    cover: 'thisdeveloperslife.png'
+    link: 'http://thisdeveloperslife.com/'
+  codingblocks:
+    name: 'Coding Blocks'
+    description: 'We are a few guys who’ve been professional programmers for years.  As avid listeners of podcasts and consumers of many things code-related, we were frustrated by the lack of quality programming (pun) available in listenable formats.  Given our years of experience and real-world problem solving skills, we thought it might be worth getting into this world of podcasting and “giving back” a shot.'
+    cover: 'codingblocks.jpg'
+    link: 'https://www.codingblocks.net/category/podcast/'
+  developertea:
+    name: 'Developer Tea'
+    description: 'A podcast for developers designed to fit inside your tea break'
+    cover: 'developertea.jpg'
+    link: 'https://spec.fm/podcasts/developer-tea'
+  ladybug:
+    name: 'Ladybug'
+    description: 'Listen to Kelly Vaughn, Ali Spittel, Emma Wedekind, && Lindsey Kopacz debug the tech industry.'
+    cover: 'ladybug.png'
+    link: 'https://ladybug.dev/'
+  hoffman1:
+    name: 'Masters of Scale'
+    description: 'Masters of Scale is an original podcast hosted by Reid Hoffman, co-founder of LinkedIn and investor at Greylock. In each episode, Reid shows how companies grow from zero to a gazillion, testing his theories with legendary leaders. Masters of Scale is the first American media program to commit to gender balance for guests.'
+    cover: 'mastersofscale.jpeg'
+    link: 'https://mastersofscale.com/'
+  rocks:
+    name: '.NET Rocks'
+    description: '.NET Rocks! is a weekly talk show for anyone interested in programming on the Microsoft .NET platform. The shows range from introductory information to hardcore geekiness.'
+    cover: 'netrocks.jpg'
+    link: 'https://www.dotnetrocks.com/#section_1'
+  sonmez1:
+    name: 'Simple Programmer'
+    description: 'Simple Programmer is focused on helping software developers, programmers and other IT professionals improve their careers and live better lives.'
+    cover: 'simpleprogrammer.png'
+    link: 'https://simpleprogrammer.libsyn.com/'
+  grant1:
+    name: 'WorkLife with Adam Grant'
+    description: 'Organizational psychologist Adam Grant takes you inside the minds of some of the world’s most unusual professionals to explore the science of making work not suck. From learning how to love criticism to harnessing the power of frustration, one thing’s for sure: You’ll never see your job the same way again.'
+    cover: 'worklife.png'
+    link: 'https://www.ted.com/podcasts/worklife'
 tools:
   t1:
     name: 'edX'
