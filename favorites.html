@@ -1,33 +1,44 @@
 ---
 layout: container
+favorites:
+ - books
+ - podcasts
 ---
 <div class="row top-row center" style="position:fixed; top: 0; left: 0; width: 100%; z-index: 999; background-color: coral">Under Construction</div>
 <div class="favorite-list">
   <ul id="favorites-tabs" class="tabs">
-    {% for fav in site.data.favorites %}
-      <li class="tab col s3"><a href="#tab-{{ fav[0] }}">{{ fav[0] | capitalize }}</a></li>
+    {% for fav in page.favorites %}
+      <li class="tab col s3"><a href="#tab-{{ fav }}">{{ fav | capitalize }}</a></li>
     {% endfor %}
   </ul>
   <div id="tab-books" class="col s12">
     <a target="_blank" class="z-depth-4 waves-effect waves-light btn-large" href="https://www.goodreads.com/review/list/{{ site.goodreads_bookshelf }}">GoodReads list</a>
     <!-- <a target="_blank" class="z-depth-4 waves-effect waves-light btn-large right" href="https://www.goodreads.com/user/show/{{ site.goodreads }}">GoodReads profile</a> -->
-    {% for fav in site.data.favorites.books %}
-      {% include book_box.html book=fav %}
-    {% endfor %}
+    <div class="row">
+        {% for fav in site.data.books %}
+          {% include book_box.html book=fav %}
+        {% endfor %}
+    </div>
   </div>
   <div id="tab-podcasts" class="col s12">
-    {% for fav in site.data.favorites.podcasts %}
-      {% include podcast_box.html podcast=fav %}
-    {% endfor %}
+    <div class="row">
+      {% for fav in site.data.podcasts %}
+        {% include podcast_box.html podcast=fav %}
+      {% endfor %}
+    </div>
   </div>
-  <div id="tab-tools" class="col s12">
-    {% for fav in site.data.favorites.tools %}
-      {% include tool_box.html tool=fav %}
-    {% endfor %}
+  <!-- <div id="tab-tools" class="col s12">
+    <div class="row">
+      {% for fav in site.data.tools %}
+        {% include tool_box.html tool=fav %}
+      {% endfor %}
+    </div>
   </div>
   <div id="tab-quotes" class="col s12">
-    {% for fav in site.data.favorites.quotes %}
-      {% include quote_box.html quote=fav %}
-    {% endfor %}
-  </div>
+    <div class="row">
+      {% for fav in site.data.quotes %}
+        {% include quote_box.html quote=fav %}
+      {% endfor %}
+    </div>
+  </div> -->
 </div>
