@@ -1,4 +1,4 @@
-<div class="podcast-container col s12 m7">
+<div class="podcast-container col s12 l6">
     <div class="card horizontal valign-wrapper">
       <div class="card-image">
           <img src="/assets/images/covers/{{ include.podcast[1].cover }}" alt="{{ include.podcast[1].name }}" title="{{ include.podcast[1].name }}"></img>
@@ -6,7 +6,7 @@
       <div class="card-stacked">
         <div class="card-content">
           <p class="card-title">{{ include.podcast[1].name }}</p>
-          <p>{{ include.podcast[1].description }}</p>
+          <p class="truncate">{{ include.podcast[1].description }}</p>
         </div>
         <div class="card-action">
           <a href="{{ include.podcast[1].link }}">Link</a>

@@ -1,4 +1,4 @@
-<div class="book-container col s12 m7">
+<div class="book-container col s12 l6">
   <div class="card horizontal hoverable valign-wrapper">
     <div class="card-image">
         <img src="/assets/images/covers/{{ include.book[1].cover }}" alt="{{ include.book[1].name }}" title="{{ include.book[1].name }}"></img>
@@ -11,7 +11,7 @@
       <div class="card-action">
         <a href="https://www.goodreads.com/book/show/{{ include.book[1].goodreads }}">Goodreads</a>
         {% if include.book[1].summary %}
-          <a class="right" href="/{{ include.book[1].summary }}">My takeaways</a>
+          <a class="right" href="/{{ include.book[1].summary }}">My notes</a>
         {% endif %}
       </div>
     </div>
