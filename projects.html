@@ -1,9 +1,25 @@
 ---
 layout: container
+skills:
+ - projects
+ - consulting
+ - side projects
+ - courses
 ---
 <div class="row top-row center" style="position:fixed; top: 0; left: 0; width: 100%; z-index: 999; background-color: coral">Under Construction</div>
 <div class="project_list">
-  {% for proj in site.data.projects %}
-    {% include project_box.html project=proj %}
+  <ul id="skills-tabs" class="tabs">
+    {% for val in page.skills %}
+      <li class="tab col s3"><a href="#tab-{{ val | slugify }}">{{ val | capitalize }}</a></li>
+    {% endfor %}
+  </ul>
+  {% for skill in site.data.projects %}
+    <div id="tab-{{ skill[0] | slugify }}" class="col s12">
+      <div class="row">
+        {% for proj in skill[1] %}
+          {% include project_box.html project=proj %}
+        {% endfor %}
+      </div>
+    </div>
   {% endfor %}
 </div>

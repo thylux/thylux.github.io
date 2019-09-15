@@ -1,24 +1,45 @@
+.project-container {
+  margin: 5px auto;
+  .card {
+    box-shadow: none;
+    webkit-box-shadow: none;
+  }
+  .card-stacked {
+    margin-left: 10px;
+    background-color: $background-color-outline;
+    border-bottom: solid 4px #eeeeee;
+  }
+  .project-dates {
+    border-radius: 50%;
+    background-color: $color1;
+    color: $text-color;
+    height: 140px !important;
+    width: 140px !important;
+    padding-top: 30px !important;
+    margin-left: 10px !important;
+  }
+  .project-name {
+    margin-top: 0px;
+  }
+}
+
 .tool {
   margin: 10px;
 }
 
 .tool-container {
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-top-width: 0px !important;
   p {
     font-size: 16px;
   }
   @media only screen and (min-width: 550px) {
     flex-wrap: nowrap;
-    font-size: 75px;
+    font-size: 40px;
   }
-}
-
-.project-container {
-  margin: 5px auto;
-  border-bottom: solid 1px black;
 }

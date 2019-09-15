@@ -1,54 +1,118 @@
-project1:
-  name: '1'
-  description: 'abcd'
-  date_start: '1900-01-01'
-  date_end: '1900-01-01'
-  tools:
-    a:
-      name: 'a'
-      class: 'devicon-html5-plain-wordmark colored'
-    b:
-      name: 'b'
-      class: 'devicon-bootstrap-plain-wordmark colored'
-    c:
-      name: 'c'
-      class: 'devicon-sass-original colored'
-    d:
-      name: 'd'
-      class: 'devicon-javascript-plain colored'
-project2:
-  name: '2'
-  description: 'efgh'
-  date_start: '1900-01-01'
-  date_end: '1900-01-01'
-  tools:
-    a:
-      name: 'a'
-      class: 'devicon-html5-plain-wordmark'
-    b:
-      name: 'b'
-      class: 'devicon-bootstrap-plain-wordmark colored'
-    c:
-      name: 'c'
-      class: 'devicon-sass-original colored'
-    d:
-      name: 'd'
-      class: 'devicon-javascript-plain colored'
-project3:
-  name: '3'
-  description: 'ijkl'
-  date_start: '1900-01-01'
-  date_end: '1900-01-01'
-  tools:
-    a:
-      name: 'a'
-      class: 'devicon-html5-plain-wordmark'
-    b:
-      name: 'b'
-      class: 'devicon-bootstrap-plain-wordmark colored'
-    c:
-      name: 'c'
-      class: 'devicon-sass-original colored'
-    d:
-      name: 'd'
-      class: 'devicon-javascript-plain colored'
+projects:
+  project1:
+    name: '1'
+    description: 'abcd'
+    client: 'xxxx'
+    date_start: '2005-01'
+    date_end: 'Present'
+    tools:
+      a:
+        name: 'a'
+        class: 'devicon-html5-plain-wordmark colored'
+      b:
+        name: 'b'
+        class: 'devicon-bootstrap-plain-wordmark colored'
+      c:
+        name: 'c'
+        class: 'devicon-sass-original colored'
+      d:
+        name: 'd'
+        class: 'devicon-javascript-plain colored'
+  project2:
+    name: '2'
+    description: 'efgh'
+    client: 'yyyy'
+    date_start: '1900-01-01'
+    date_end: '1900-01-01'
+    tools:
+      a:
+        name: 'a'
+        class: 'devicon-html5-plain-wordmark'
+      b:
+        name: 'b'
+        class: 'devicon-bootstrap-plain-wordmark colored'
+      c:
+        name: 'c'
+        class: 'devicon-sass-original colored'
+      d:
+        name: 'd'
+        class: 'devicon-javascript-plain colored'
+  project3:
+    name: '3'
+    description: 'ijkl'
+    client: 'zzzz'
+    date_start: '1900-01-01'
+    date_end: '1900-01-01'
+    tools:
+      a:
+        name: 'a'
+        class: 'devicon-html5-plain-wordmark'
+      b:
+        name: 'b'
+        class: 'devicon-bootstrap-plain-wordmark colored'
+      c:
+        name: 'c'
+        class: 'devicon-sass-original colored'
+      d:
+        name: 'd'
+        class: 'devicon-javascript-plain colored'
+consulting:
+  project1:
+    name: '1'
+    description: 'abcd'
+    client: ''
+    date_start: '1900-01-01'
+    date_end: '1900-01-01'
+    tools:
+      a:
+        name: 'a'
+        class: 'devicon-html5-plain-wordmark colored'
+      b:
+        name: 'b'
+        class: 'devicon-bootstrap-plain-wordmark colored'
+      c:
+        name: 'c'
+        class: 'devicon-sass-original colored'
+      d:
+        name: 'd'
+        class: 'devicon-javascript-plain colored'
+'side projects':
+  project1:
+    name: '1'
+    description: 'abcd'
+    client: 'xxxx'
+    date_start: '1900-01-01'
+    date_end: '1900-01-01'
+    tools:
+      a:
+        name: 'a'
+        class: 'devicon-html5-plain-wordmark colored'
+      b:
+        name: 'b'
+        class: 'devicon-bootstrap-plain-wordmark colored'
+      c:
+        name: 'c'
+        class: 'devicon-sass-original colored'
+      d:
+        name: 'd'
+        class: 'devicon-javascript-plain colored'
+courses:
+  project1:
+    name: '1'
+    description: 'abcd'
+    client: ''
+    date_start: '1900-01-01'
+    date_end: '1900-01-01'
+    tools:
+      a:
+        name: 'a'
+        class: 'devicon-html5-plain-wordmark colored'
+      b:
+        name: 'b'
+        class: 'devicon-bootstrap-plain-wordmark colored'
+      c:
+        name: 'c'
+        class: 'devicon-sass-original colored'
+      d:
+        name: 'd'
+        class: 'devicon-javascript-plain colored'

@@ -8,7 +8,7 @@ favorites:
 <div class="favorite-list">
   <ul id="favorites-tabs" class="tabs">
     {% for val in page.favorites %}
-      <li class="tab col s3"><a href="#tab-{{ val }}">{{ val | capitalize }}</a></li>
+      <li class="tab col s3"><a href="#tab-{{ val | slugify }}">{{ val | capitalize }}</a></li>
     {% endfor %}
   </ul>
   <div id="tab-books" class="col s12">
