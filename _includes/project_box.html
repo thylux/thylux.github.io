@@ -5,9 +5,10 @@
     </div>
     <div class="card-stacked">
       <div class="card-content">
-        <h3 class="project-name"><b>{{ include.project[1].name }}</b></h3>
-        <img class="project-client-img" src="/assets/images/companies/{{include.project[1].client.logo }}"/>
-        <h5 class="project-client">{{ include.project[1].client.name }}</h5>
+        <p class="valign-wrapper">
+          <img class="project-client-img" src="/assets/images/companies/{{include.project[1].client.logo }}"/> {{ include.project[1].client.name }}
+        </p>
+        <h5 class="project-name"><b>{{ include.project[1].name }}</b></h5>
         <p class="project-description">{{ include.project[1].description }}</p>
       </div>
       <div class="card-action tool-container">

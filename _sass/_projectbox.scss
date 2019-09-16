@@ -25,6 +25,7 @@
   .project-client-img {
     max-width: 48px;
     max-height: 48px;
+    margin: 10px 10px 10px 0px;
   }
 }
 
@@ -38,7 +39,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   border-top-width: 0px !important;
-  padding: 0px !important;
+  padding: 0px 24px !important;
   p {
     font-size: 16px;
   }
