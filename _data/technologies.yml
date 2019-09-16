@@ -1,0 +1,99 @@
+languages:
+  csharp:
+    name: 'C#'
+    icon: 'devicon-csharp-plain-wordmark colored'
+  cplus:
+    name: 'C++'
+    icon: 'devicon-cplusplus-plain-wordmark colored'
+  coffeescript:
+    name: 'Coffeescript'
+    icon: 'devicon-coffeescript-original-wordmark colored'
+  html:
+    name: 'HTML'
+    icon: 'devicon-html5-plain-wordmark colored'
+  javascript:
+    name: 'Javascript'
+    icon: 'devicon-javascript-plain colored'
+  ruby:
+    name: 'Ruby'
+    icon: 'devicon-ruby-plain-wordmark colored'
+  typescript:
+    name: 'Typescript'
+    icon: 'devicon-typescript-plain colored'
+frameworks:
+  angular:
+    name: 'Angular'
+    icon: 'devicon-angularjs-plain colored'
+  vue:
+    name: 'Vue.js'
+    icon: 'devicon-vuejs-plain-wordmark colored'
+  bootstrap:
+    name: 'Bootstrap'
+    icon: 'devicon-bootstrap-plain-wordmark colored'
+  css:
+    name: 'CSS'
+    icon: 'devicon-css3-plain-wordmark colored'
+  d3:
+    name: 'D3.js'
+    icon: 'devicon-d3js-plain colored'
+  dotnet:
+    name: '.NET'
+    icon: 'devicon-dot-net-plain-wordmark colored'
+  express:
+    name: 'Express'
+    icon: 'devicon-express-original-wordmark colored'
+  jasmine:
+    name: 'Jasmine'
+    icon: 'devicon-jasmine-plain-wordmark colored'
+  jquery:
+    name: 'jQuery'
+    icon: 'devicon-jquery-plain-wordmark colored'
+  laravel:
+    name: 'Laravel'
+    icon: 'devicon-laravel-plain-wordmark colored'
+  nodejs:
+    name: 'NodeJS'
+    icon: 'devicon-nodejs-plain colored'
+  rails:
+    name: 'Rails'
+    icon: 'devicon-rails-plain-wordmark colored'
+  sass:
+    name: 'Sass'
+    icon: 'devicon-sass-original colored'
+databases:
+  sqlserver:
+    name: 'SQL Server'
+    icon: 'devicons devicons-msql_server'
+  mysql:
+    name: 'MySQL'
+    icon: 'devicon-mysql-plain-wordmark colored'
+  redis:
+    name: 'Redis'
+    icon: 'devicon-redis-plain-wordmark colored'
+repositories:
+  git:
+    name: 'git'
+    icon: 'devicon-git-plain-wordmark colored'
+  tfs:
+    name: 'TFS'
+    icon: 'devicon-visualstudio-plain colored'
+  github:
+    name: 'GitHub'
+    icon: 'devicon-github-plain-wordmark colored'
+  bitbucket:
+    name: 'BitBucket'
+    icon: 'devicon-bitbucket-plain-wordmark colored'
+cloud:
+  azure:
+    name: 'Azure'
+    icon: 'icon-azure'
+  aws:
+    name: 'AWS'
+    icon: 'devicon-amazonwebservices-plain-wordmark colored'
+  docker:
+    name: 'Docker'
+    icon: 'devicon-docker-plain-wordmark colored'
+ide:
+  visualstudio:
+    name: 'Visual Studio'
+    icon: 'devicon-visualstudio-plain colored'

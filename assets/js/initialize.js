@@ -151,4 +151,9 @@ function initializeScripts(){
     $("html, body").animate({ scrollTop: 0 }, 250);
     return false;
   })
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems, options);
+  });
 }

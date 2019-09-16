@@ -6,15 +6,20 @@
     <div class="card-stacked">
       <div class="card-content">
         <h3 class="project-name"><b>{{ include.project[1].name }}</b></h3>
-        <h5 class="project-client">{{ include.project[1].client }}</h5>
+        <img class="project-client-img" src="/assets/images/companies/{{include.project[1].client.logo }}"/>
+        <h5 class="project-client">{{ include.project[1].client.name }}</h5>
         <p class="project-description">{{ include.project[1].description }}</p>
       </div>
       <div class="card-action tool-container">
-        <div class="tool">
-          {% for tool in include.project[1].tools %}
-            <i class="{{tool[1].class}}" alt="{{tool[1].name}}" title="{{tool[1].name}}"></i>
+        {% for category in include.project[1].tools %}
+          {% assign tools = site.data.technologies | map: category[0] %}
+          {% for tool in category[1] %}
+            <div class="tool">
+              {% assign obj = tools | map: tool %}
+              <i class="{{ obj[0].icon }} tooltipped" data-position="bottom" data-tooltip="{{ obj[0].name }}"></i>
+            </div>
           {% endfor %}
-        </div>
+        {% endfor %}
       </div>
     </div>
   </div>

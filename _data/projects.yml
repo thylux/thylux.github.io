@@ -1,27 +1,51 @@
 projects:
-  project1:
-    name: '1'
-    description: 'abcd'
-    client: 'xxxx'
-    date_start: '2005-01'
+  smart1:
+    name: 'Smart Documentor'
+    description: 'Implementation of client modules to integrate with Smart Documentor solution.'
+    client:
+      name: 'DevScope'
+      logo: 'devscope.png'
+    date_start: '2017-04'
     date_end: 'Present'
     tools:
-      a:
-        name: 'a'
-        class: 'devicon-html5-plain-wordmark colored'
-      b:
-        name: 'b'
-        class: 'devicon-bootstrap-plain-wordmark colored'
-      c:
-        name: 'c'
-        class: 'devicon-sass-original colored'
-      d:
-        name: 'd'
-        class: 'devicon-javascript-plain colored'
+      ide:
+        - 'visualstudio'
+      languages:
+        - 'csharp'
+  smart2:
+    name: 'Smart Documentor'
+    description: 'Implementation of accounting module to integrate with Smart Documentor solution.'
+    client:
+      name: 'DevScope'
+      logo: 'devscope.png'
+    date_start: '2017-04'
+    date_end: 'Present'
+    tools:
+      ide:
+        - 'visualstudio'
+      languages:
+        - 'csharp'
+  smart3:
+    name: 'Smart Documentor'
+    description: 'Implementation of Smart Documentor web backend.'
+    client:
+      name: 'DevScope'
+      logo: 'devscope.png'
+    date_start: '2017-04'
+    date_end: 'Present'
+    tools:
+      frameworks:
+        - 'angular'
+      languages:
+        - 'csharp'
+      databases:
+        - 'sqlserver'
   project2:
     name: '2'
     description: 'efgh'
-    client: 'yyyy'
+    client:
+      name: 'yyyy'
+      logo: ''
     date_start: '1900-01-01'
     date_end: '1900-01-01'
     tools:
@@ -40,7 +64,9 @@ projects:
   project3:
     name: '3'
     description: 'ijkl'
-    client: 'zzzz'
+    client:
+      name: 'zzzz'
+      logo: ''
     date_start: '1900-01-01'
     date_end: '1900-01-01'
     tools:
@@ -60,7 +86,9 @@ consulting:
   project1:
     name: '1'
     description: 'abcd'
-    client: ''
+    client:
+      name: ''
+      logo: ''
     date_start: '1900-01-01'
     date_end: '1900-01-01'
     tools:
@@ -80,7 +108,9 @@ consulting:
   project1:
     name: '1'
     description: 'abcd'
-    client: 'xxxx'
+    client:
+      name: 'xxxx'
+      logo: ''
     date_start: '1900-01-01'
     date_end: '1900-01-01'
     tools:
@@ -100,7 +130,9 @@ courses:
   project1:
     name: '1'
     description: 'abcd'
-    client: ''
+    client:
+      name: 'xxxx'
+      logo: ''
     date_start: '1900-01-01'
     date_end: '1900-01-01'
     tools:
